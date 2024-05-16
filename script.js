@@ -8,7 +8,7 @@ function berekenLeeftijd() {
     // Toon het resultaat
     document.getElementById("resultaat").textContent = resultaat;
 
-    // Controleer of het resultaat kleiner is dan leeftijd2
+    // Controleer of het resultaat groter is dan leeftijd2 en toon/verberg de melding dienovereenkomstig
     if (resultaat > leeftijd2) {
         document.getElementById("melding").style.display = "block";
     } else {
