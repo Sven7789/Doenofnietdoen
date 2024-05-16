@@ -4,7 +4,7 @@ function berekenLeeftijd() {
 
     // Bereken het resultaat
     var resultaat = (leeftijd1 / 2) + 7;
-
+    var omgekeerdresultaat = "Leeftijd te jong"
     // Toon het resultaat
     document.getElementById("resultaat").textContent = resultaat;
 
@@ -18,6 +18,7 @@ function berekenLeeftijd() {
     }
     elseif (leeftijd2 >= resultaat)
     {
+        document.getElementById("resultaat").textContent = omgekeerdresultaat;
         document.getElementById("melding").style.display = "block";
     }
 }
