@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doen of niet doen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Leeftijdsberekening</h1>
+    </header>
+
+    <div class="container">
+        <label for="leeftijd1">Leeftijd 1:</label>
+        <input type="number" id="leeftijd1" name="leeftijd1">
+        <br><br>
+        <label for="leeftijd2">Leeftijd 2:</label>
+        <input type="number" id="leeftijd2" name="leeftijd2">
+        <br><br>
+        <button onclick="berekenLeeftijd()">Bereken</button>
+        <br><br>
+        <p>Het resultaat van leeftijd 1 gedeeld door 2 plus 7 is: <span id="resultaat"></span></p>
+        <p id="melding">Niet doen, niet oud genoeg!</p>
+    </div>
+
+    <footer>
+        &copy; 2024 - Gemaakt door [Jouw naam/het team]
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
