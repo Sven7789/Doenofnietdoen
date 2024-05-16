@@ -11,7 +11,13 @@ function berekenLeeftijd() {
     // Controleer of het resultaat groter is dan leeftijd2 en toon/verberg de melding dienovereenkomstig
     if (resultaat > leeftijd2) {
         document.getElementById("melding").style.display = "block";
-    } else {
+    } 
+    else
+    {
         document.getElementById("melding").style.display = "none";
+    }
+    elseif (leeftijd2 >= resultaat)
+    {
+        document.getElementById("melding").style.display = "block";
     }
 }
